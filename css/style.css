@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #141C24;
+}
+
+header {
+    width: 100%;
+    height: 123px;
+    background: #141C24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-menu {
+    margin-left: 100px;
+    margin-right: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-menu h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main {
+    background: #141C24;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main__start-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1329px;
+    width: 100%;
+    min-height: 778px;
+    background: radial-gradient(49.95% 96.01% at 50.05% 49.91%, rgba(82, 125, 139, 0) 0%, rgba(82, 125, 139, 0.25) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/Rectangle 71.png');
+    box-shadow: -33px 17px 29px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: 0.5px solid #57D6FF;
+    margin: 0 auto;
+
+
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main__start-line {
+    position: relative;
+    top: 25px;
+    max-width: 132px;
+    width: 100%;
+    border-top: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+    margin: 0 auto;
+}
+
+.main-left-line {
+    width: 100%;
+    min-height: 2230px;
+    margin-left: 60px;
+    box-sizing: border-box;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.main__description {
+
+    max-width: 1329px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.card-list {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.card__server {
+    max-width: 664.58px;
+    width: 100%;
+    height: 383.98px;
+
+
+}
+
+.card__server img {
+    width: 100%;
+    height: auto;
+}
+
+.card__description {
+    max-width: 480px;
+    width: 100%;
+    min-height: 517px;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.card__description-top-line {
+    display: flex;
+    justify-content: flex-start;
+    gap: 35px;
+    align-items: center;
+    width: 100%;
+    height: 15px;
+}
+
+
+.card__description h2 {
+    max-width: 255px;
+    width: 100%;
+    min-height: 39px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin-top: 17px;
+}
+
+.line {
+    max-width: 50px;
+    width: 100%;
+    height: 0px;
+    border: 1px solid #57D6FF;
+    transform: rotate(180deg);
+}
+
+.card__description p {
+    max-width: 140px;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #57D6FF;
+}
+
+.card__description h6 {
+    max-width: 480px;
+    width: 100%;
+    min-height: 83px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.33px;
+    line-height: 1.3;
+    color: #ABABAB;
+    margin-top: 60px;
+    margin-bottom: 27px;
+
+}
+
+.card__description-middle-line {
+    max-width: 271px;
+    width: 100%;
+    height: 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    transform: rotate(180deg);
+    margin: 0;
+}
+
+.card__description h5 {
+    max-width: 480px;
+    width: 100%;
+    min-height: 128px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.33px;
+    line-height: 1.3;
+    color: #ABABAB;
+    margin-top: 22px;
+    margin-bottom: 75px;
+}
+
+.main__download {
+    max-width: 73px;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #00C5FF;
+}
+
+.main__button-download {
+    max-width: 76px;
+    width: 100%;
+    min-height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #00C5FF;
+    text-decoration: none;
+}
+
+.start {
+    max-width: 1329px;
+    width: 100%;
+    min-height: 655px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.start__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 223px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.start__heading p {
+    margin-left: 30px;
+    max-width: 140px;
+    width: 100%;
+    min-height: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 180%;
+    color: #57D6FF;
+}
+
+.start__heading h2 {
+    max-width: 195px;
+    width: 100%;
+    min-height: 39px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.cards__list-instruction {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    min-height: 108px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    max-width: 175px;
+    width: 100%;
+    height: 110px;
+    position: relative;
+
+
+}
+
+.line-card {
+    position: relative;
+    margin-top: 50px;
+    width: 73px;
+    height: 0px;
+    background: #141C24;
+    border: 1px solid #50AFCD;
+    transform: rotate(180deg);
+}
+
+.card:nth-child(3) {
+    position: relative;
+    right: 12px;
+}
+
+.card:nth-child(5) {
+    position: relative;
+    right: 22px;
+}
+
+.card:nth-child(7) {
+    right: 33px;
+}
+
+.line-card:nth-child(2) {
+    right: 10px;
+}
+
+.line-card:nth-child(4) {
+    right: 22px;
+}
+
+.line-card:nth-child(6) {
+    right: 33px;
+}
+
+.card-logo {
+    width: 64px;
+    height: 64px;
+    background: url("../icon/Apple Arcade.svg");
+}
+
+.card h5 {
+    margin: 0;
+    width: 100%;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.33px;
+    line-height: 1.5;
+    color: #F1F1F1;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.main-start {
+    max-width: 69px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #00C5FF;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.main-start a {
+    max-width: 55px;
+    width: 100%;
+    min-height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #00C5FF;
+    text-decoration: none;
+}
+
+.main__rates-cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-height: 768px;
+}
+
+.rates {
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.rates p {
+    text-align: center;
+    max-width: 140px;
+    width: 100%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #57D6FF;
+}
+
+.card__description-line {
+    margin-top: 250px;
+    justify-content: start;
+
+}
+
+.card__description-line p {
+    max-width: 190px;
+
+}
+
+.main__rates-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.main__rates-cards-top {
+    margin: 0 auto;
+}
+
+.main__rates-cards-top h2 {
+    margin: 0;
+    max-width: 392px;
+    width: 100%;
+    min-height: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.main__rates-card-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 80px;
+    max-width: 1230px;
+    min-height: 593px;
+    width: 100%;
+
+}
+
+.main__rates-card {
+    max-width: 400px;
+    width: 100%;
+    min-height: 543px;
+    background: #1F2631;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 75px 40px 50px 40px;
+    box-sizing: border-box;
+
+}
+
+.main__rates-card:nth-child(2) {
+    max-width: 400px;
+    width: 100%;
+    min-height: 543px;
+    background: #00C5FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.rates-card-top h5 {
+    margin: 0;
+    max-width: 311px;
+    width: 100%;
+    min-height: 90px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #FFFFFF;
+
+}
+
+.rates-card-top p {
+    margin: 0;
+    max-width: 170px;
+    width: 100%;
+    min-height: 33.79px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.rates-card-middle {
+    max-width: 311px;
+    width: 100%;
+    min-height: 173.76px;
+    margin-top: 20px;
+}
+
+.rates-card-middle li {
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.33px;
+    line-height: 1.5;
+    color: #ABABAB;
+}
+
+.rates-card-middle ul {
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.rates-card-bottom {
+    max-width: 321px;
+    width: 100%;
+    min-height: 70px;
+    margin-top: 15px;
+}
+
+.rates-card-bottom a {
+    padding: 20px 114px;
+    max-width: 321px;
+    width: 100%;
+    background: #00C5FF;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #000000;
+    text-decoration: none;
+}
+
+.card-center h5 {
+    color: #000000;
+}
+
+.card-center p {
+    color: #000000;
+    max-width: 170px;
+}
+
+.card-center li {
+    color: #000000;
+}
+
+.card-center a {
+    color: #ffffff;
+    background-color: #000000;;
+}
+
+.card-list-bottom-line {
+    max-width: 582px;
+    width: 100%;
+    height: 0px;
+    border-top: 1px solid #00C5FF;
+    transform: rotate(180deg);
+    margin-top: 90px;
+}
+
+.card__description-top {
+    width: 434px;
+    height: 78px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.block-information-browser {
+    width: 103.2%;
+    min-height: 740px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+.card__description-left-block {
+    max-width: 480px;
+    width: 100%;
+    min-height: 370px;
+    margin-left: 140px;
+    position: relative;
+    bottom: 205px;
+
+}
+
+.card__description-left-block h5 {
+    max-width: 480px;
+    width: 100%;
+    min-height: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.33px;
+    line-height: 1.5;
+    color: #ABABAB;
+    margin-top: 90px;
+}
+
+.main__download-open-browser {
+    max-width: 152px;
+    margin-top: 60px;
+}
+
+.card__description-right-block {
+    max-width: 857px;
+    width: 100%;
+    min-height: 739.89px;
+}
+
+.game-location {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 550px;
+    margin-top: -150px;
+}
+
+.game-location-item p {
+    max-width: 200px;
+}
+
+.game__location-top {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.game__location-top h2 {
+    text-align: center;
+    width: 100%;
+    min-height: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.game__location-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 75px;
+    background: #171717;
+    width: 103.2%;
+    height: 150px;
+    display: flex;
+    gap:300px;
+}
+
+.footer-text {
+    max-width: 166px;
+    width: 100%;
+    min-height: 11px;
+    font-family: 'Pulsar - Original';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #ECECEC;
+}
+
+.footer__left-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.footer__right-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.footer__right-block h7 {
+    width: 177px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+.footer__right-block h7:nth-child(2)
+{
+    width: 78px;
+}

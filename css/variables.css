@@ -1,0 +1,24 @@
+:root {
+    --color:red;
+    --gg:blue;
+    --basic-green: #68B738;
+    --basic-white: #ffffff;
+    --basic-gray:#F2F2F2;
+    --special_dark-grey:#444444;
+
+
+
+    --tablet-lg-width: 1024px;
+    --tablet-width: 768px;
+    --mobile-lg-width: 600px;
+    --mobile-width: 480px;
+    --mobile-sm-width: 320px;
+
+
+    --content-padding-form-desktop:110px;
+    --content-padding-desktop:40px;
+    --content-padding-tablet:30px;
+    --content-padding-mobile:20px;
+    --content-padding-small-mobile:10px;
+}
+
