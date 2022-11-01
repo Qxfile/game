@@ -2,7 +2,7 @@
 
 const registration = document.querySelector('.registration');
 const authorization = document.querySelector('.authorization');
-const btnRegAut = document.querySelector('.registration-button')
+const btnRegAut = document.querySelector('.registration-button');
 
 console.log(authorization);
 console.log(registration)
