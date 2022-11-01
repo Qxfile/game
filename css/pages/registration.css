@@ -1,0 +1,304 @@
+@import "../style.css";
+@import "download.css";
+
+body {
+    background: #141C24;
+}
+
+.arrow {
+    order: -5;
+}
+
+.authorization__vk {
+    width: 411px;
+    height: 52px;
+    background-image: url("../../registration/img/Rectangle 219.png");
+    display: none;
+    transform: translateX(-250%);
+    animation: vk-anim 1s forwards;
+}
+
+@keyframes vk-anim {
+    0% {
+        transform: translateX(-250%);
+        margin-bottom: 4px
+    }
+    10% {
+        margin-bottom: 8px
+    }
+    20% {
+        margin-bottom: 12px
+    }
+    30% {
+        margin-bottom: 16px
+    }
+    40% {
+        margin-bottom: 20px
+    }
+    50% {
+        margin-bottom: 24px
+    }
+    60% {
+        margin-top: 28px
+    }
+    70% {
+        margin-bottom: 32px
+    }
+    80% {
+        margin-bottom: 36px
+    }
+    90% {
+        margin-bottom: 40px
+    }
+    100% {
+        transform: translateY(0);
+        margin-bottom: 40px
+    }
+}
+
+.main__registration {
+    margin-top: 130px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.social__block-cards-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 545px;
+    width: 100%;
+    gap: 40px;
+}
+
+h2 {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    font-family: 'Aire Exterior';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.auntification__block-top {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}
+
+.auntification__block-top input:nth-child(2) {
+    margin-top: 0px;
+}
+
+.auntification__block-top input {
+    margin-top: 60px;
+    width: 88%;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.registration-button {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 400px;
+    width: 100%;
+    min-height: 110px;
+}
+
+.registration-button p {
+    margin-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.registration-button a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    width: 100%;
+    min-height: 90px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    transition: 0.5s;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 32%, 90% 0);
+    font-size: 22px;
+}
+
+.registration-button a:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: inset 0px 0px 70px -5px rgb(16 40 72);
+    font-size: 25px;
+}
+
+.toggle-identification {
+    opacity: 0.5;
+}
+
+.registration {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.5s;
+    cursor: pointer;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.registration:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.authorization {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.5s;
+    cursor: pointer;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.authorization:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.registration-middle {
+    display: flex;
+    justify-content: center;
+    max-width: 640px;
+    width: 100%;
+    min-height: 94px;
+    margin-top: 60px;
+}
+
+.registration-agreement {
+
+    width: 100%;
+
+}
+
+.registration-agreement h7 {
+    width: 100%;
+    height: 112px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.check {
+    margin-right: 20px;
+    margin-top: 3px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.check__input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.check__box {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #CDCDCD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.custom__checkbox-indicator {
+    background-image: url("../../registration/icon/icons8-дота-2.svg");
+
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.check__input:checked + .check__box .custom__checkbox-indicator {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.registration-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15px;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.registration-bottom p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.registration-line {
+    max-width: 117px;
+    width: 100%;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: rotate(180deg);
+}
+
+.authorization-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*max-width: 254px;*/
+    max-width: 500px;
+    width: 100%;
+    gap: 30px;
+    min-height: 80px;
+    margin-top: 25px;
+}
+
+.social {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.social:hover {
+    transition: 0.2s;
+    transform: scale(2);
+}

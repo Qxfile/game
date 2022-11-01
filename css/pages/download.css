@@ -1,0 +1,138 @@
+@import "../style.css";
+
+
+body {
+    background: #141C24;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 320px;
+}
+
+main h1 {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    font-family: 'Aire Exterior';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.social__block-cards-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__block-cards {
+    margin-top: 125px;
+    display: flex;
+    gap: 60px;
+
+}
+
+.arrow-top {
+    transform: rotate(-45deg);
+    width: 20px;
+    height: 3px;
+    background-color: #ffffff;
+    transition: background-color 0s;
+    position: relative;
+    bottom: 6px;
+    transition-property: all;
+    transition: 0.5s
+}
+
+.arrow-bottom {
+    transform: rotate(45deg);
+    position: relative;
+    right: 19px;
+    width: 20px;
+    height: 3px;
+    background: #ffffff;
+    margin-top: 14px;
+    transition-property: all;
+    transition: 0.5s
+}
+
+.arrow:hover .arrow-top {
+    background-color: #00fbff;
+    transition: background-color 1s;
+    width: 30px;
+    transition-property: all;
+    transition: 0.5s;
+}
+
+.arrow:hover .arrow-bottom {
+    background-color: #00fbff;
+    transition: background-color 0.7s;
+    margin-top: 29px;
+    width: 30px;
+    right: 28px;
+    transition-property: all;
+    transition: 0.5s;
+}
+
+.windows {
+    transition-property: all;
+    transition: 0.5s
+}
+
+.windows:hover {
+    opacity: 0.4;
+    transition: opacity 0.25s;
+}
+
+.windows:active {
+    transition: 0.5s;
+    width: 300px;
+    height: 300px;
+}
+
+.mac {
+    transition-property: all;
+    transition: 0.5s
+}
+
+.mac:hover {
+    opacity: 0.4;
+    transition: opacity 0.25s;
+}
+
+
+.linux {
+    transition-property: all;
+    transition: 0.5s
+}
+
+.linux:hover {
+    opacity: 0.4;
+    transition: opacity 0.25s;
+}
+
+
+.chrome {
+    transition: 0.5s;
+}
+
+.chrome:hover {
+    /*transform: scale(1.2);*/
+    opacity: 0.4;
+    transition: opacity 0.5s;
+
+}
