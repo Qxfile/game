@@ -8,6 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="http://fonts.cdnfonts.com/css/aire-exterior" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script type="text/javascript" src="script/jquery.scrollme.js"></script>
+    <script src="script/jquery.scrollme.min.js"></script>
 </head>
 <body>
 
@@ -34,126 +37,137 @@
 </section>
 
 <!--<section class="main-left-line">-->
-    <section class="main__description container">
-        <div class="card-list">
-            <div class="card__server"><img src="img/ImageServerHost.png" alt=""></div>
-            <div class="card__description">
-                <div class="card__description-top-line">
-                    <div class="line"></div>
-                    <p>Облачный гейминг</p>
-                </div>
-                <h2>Как это работает </h2>
-                <h6>Наши сервера запускают игру, и передают
-                    вам картинку, которой вы можете управлять
-                    в реальном времени!</h6>
-                <div class="card__description-middle-line"></div>
-                <h5>Приложение запустится на ПК с процессором
-                    от 1.5 GHz , от 1 Gb RAM и доступом в интернет
-                    от 15 мбит/с
-                    на всех операционых системах
-                    Windows 7, 8, 10 MacOS и Linux .</h5>
-                <div class="main__download"><a href="#" class="main__button-download">Загрузить</a></div>
+<section class="main__description container">
+    <div class="card-list">
+        <div class="card__server" data-aos="fade-down"><img src="img/ImageServerHost.png" alt=""></div>
+        <div class="card__description" data-aos="fade-down">
+            <div class="card__description-top-line">
+                <div class="line"></div>
+                <p>Облачный гейминг</p>
+            </div>
+            <h2>Как это работает </h2>
+            <h6>Наши сервера запускают игру, и передают
+                вам картинку, которой вы можете управлять
+                в реальном времени!</h6>
+            <div class="card__description-middle-line"></div>
+            <h5>Приложение запустится на ПК с процессором
+                от 1.5 GHz , от 1 Gb RAM и доступом в интернет
+                от 15 мбит/с
+                на всех операционых системах
+                Windows 7, 8, 10 MacOS и Linux .</h5>
+            <div class="main__download"><a href="download/donwload.html" class="main__button-download">Загрузить</a>
             </div>
         </div>
-    </section>
-    <section class="start">
-        <div class="start__heading">
-            <div class="line"></div>
-            <p>Быстрый старт</p>
-            <h2>Начни играть</h2>
+    </div>
+</section>
+<section class="start">
+    <div class="start__heading">
+        <div class="line"></div>
+        <p>Быстрый старт</p>
+        <h2>Начни играть</h2>
+    </div>
+    <div class="cards__list-instruction">
+        <div class="card" data-aos="fade-up">
+            <img src="icon/Mail%20Contact.svg" alt="">
+            <h5>Cоздайте аккаунт</h5>
         </div>
-        <div class="cards__list-instruction">
-            <div class="card">
-                <img src="icon/Mail%20Contact.svg" alt="">
-                <h5>Cоздайте аккаунт</h5>
-            </div>
 
-            <div class="line-card"></div>
+        <div class="line-card"></div>
 
-            <div class="card">
-                <img src="icon/Download%20from%20the%20Cloud.svg" alt="">
-                <h5>Cкачайте модуль</h5>
-            </div>
-
-            <div class="line-card"></div>
-
-            <div class="card">
-                <img src="icon/Library.svg" alt="">
-                <h5>Выберите тариф</h5>
-            </div>
-
-            <div class="line-card"></div>
-
-            <div class="card">
-                <img src="icon/Apple%20Arcade.svg" alt="">
-                <h5>Начни играть</h5>
-            </div>
+        <div class="card" data-aos="fade-down">
+            <img src="icon/Download%20from%20the%20Cloud.svg" alt="">
+            <h5>Cкачайте модуль</h5>
         </div>
-        <div class="main__download main-start">
-            <a href="">Начать</a>
-        </div>
-        <div class="card__description-top-line rates">
-            <div class="line"></div>
-            <p>Гибкие тарифы</p>
-        </div>
-    </section>
 
-    <section class="main__rates-cards">
-        <div class="main__rates-cards-top">
-            <h2>Доступные подписки</h2>
+        <div class="line-card"></div>
+
+        <div class="card" data-aos="fade-up">
+            <img src="icon/Library.svg" alt="">
+            <h5>Выберите тариф</h5>
         </div>
-        <div class="main__rates-card-list">
-            <div class="main__rates-card">
-                <div class="rates-card-top">
-                    <h5>Почасовая
-                        оплата</h5>
-                    <p>45 р. - час</p>
-                </div>
-                <div class="rates-card-middle">
-                    <ul>
-                        <li>Доступно:</li>
-                        <li>Каталог игр</li>
-                        <li>Виртуальный ПК</li>
-                        <li>Безлимитная игровая сессия</li>
-                    </ul>
-                </div>
-                <div class="rates-card-bottom"><a href="#"><b>Выбрать</b></a></div>
-            </div>
-            <div class="main__rates-card card-center">
-                <div class="rates-card-top">
-                    <h5>Подписка Максимум</h5>
-                    <p>2999 р. - месяц</p>
-                </div>
-                <div class="rates-card-middle">
-                    <ul>
-                        <li>Доступно:</li>
-                        <li>Каталог игр</li>
-                        <li>Виртуальный ПК</li>
-                        <li>Игровая сессия 10 часов/день</li>
-                    </ul>
-                </div>
-                <div class="rates-card-bottom"><a href="#"><b>Выбрать</b></a></div>
-            </div>
-            <div class="main__rates-card">
-                <div class="rates-card-top">
-                    <h5>Подписка Минимум</h5>
-                    <p>1500 р. - месяц</p>
-                </div>
-                <div class="rates-card-middle">
-                    <ul>
-                        <li>Доступно:</li>
-                        <li>Каталог игр</li>
-                        <li>Игровая сессия 4 часов/день</li>
-                    </ul>
-                </div>
-                <div class="rates-card-bottom"><a href="#"><b>Выбрать</b></a></div>
-            </div>
-            <div class="card-list-bottom-line"></div>
+
+        <div class="line-card"></div>
+
+        <div class="card" data-aos="fade-down">
+            <img src="icon/Apple%20Arcade.svg" alt="">
+            <h5>Начни играть</h5>
         </div>
-    </section>
+    </div>
+    <div class="main__download main-start">
+        <a href="#start">Начать</a>
+    </div>
+    <div class="card__description-top-line rates">
+        <div class="line"></div>
+        <p>Гибкие тарифы</p>
+    </div>
+</section>
+
+<section class="main__rates-cards">
+    <div class="main__rates-cards-top">
+        <h2>Доступные подписки</h2>
+    </div>
+    <div class="main__rates-card-list">
+        <div class="main__rates-card"
+             data-aos="fade-right"
+             data-aos-duration="1000">
+            <div class="rates-card-top">
+                <h5>Почасовая
+                    оплата</h5>
+                <p>45 р. - час</p>
+            </div>
+            <div class="rates-card-middle">
+                <ul>
+                    <li>Доступно:</li>
+                    <li>Каталог игр</li>
+                    <li>Виртуальный ПК</li>
+                    <li>Безлимитная игровая сессия</li>
+                </ul>
+            </div>
+            <div class="rates-card-bottom"><a class="side-button-card" href="#"><b>Выбрать</b></a></div>
+        </div>
+        <div class="main__rates-card card-center" data-aos="fade-up">
+            <div class="rates-card-top"
+                 data-when="enter"
+                 data-from="0.4"
+                 data-to="0"
+                 data-opacity="0"
+                 data-translatex="-1000">
+
+                <h5>Подписка Максимум</h5>
+                <p>2999 р. - месяц</p>
+            </div>
+            <div class="rates-card-middle">
+                <ul>
+                    <li>Доступно:</li>
+                    <li>Каталог игр</li>
+                    <li>Виртуальный ПК</li>
+                    <li>Игровая сессия 10 часов/день</li>
+                </ul>
+            </div>
+            <div class="rates-card-bottom"><a class="middle-button-card" href="#"><b>Выбрать</b></a></div>
+        </div>
+        <div class="main__rates-card"
+             data-aos="fade-left"
+             data-aos-duration="1000">
+            <div class="rates-card-top">
+                <h5>Подписка Минимум</h5>
+                <p>1500 р. - месяц</p>
+            </div>
+            <div class="rates-card-middle">
+                <ul>
+                    <li>Доступно:</li>
+                    <li>Каталог игр</li>
+                    <li>Игровая сессия 4 часов/день</li>
+                </ul>
+            </div>
+            <div class="rates-card-bottom"><a class="side-button-card" href="#"><b>Выбрать</b></a></div>
+        </div>
+        <div class="card-list-bottom-line"></div>
+    </div>
+</section>
 
 <section class="block-information-browser ">
-    <div class="card__description-left-block">
+    <div class="card__description-left-block" data-aos="fade-right">
         <div class="card__description-top-line rates card__description-line">
             <div class="line"></div>
             <p>Играть можно в браузере</p>
@@ -164,12 +178,13 @@
         <div class="main__download main__download-open-browser"><a href="#" class="main__button-download">Открыть в
             браузере</a></div>
     </div>
-    <div class="card__description-right-block">
+    <div class="card__description-right-block" data-aos="fade-down-left">
         <img src="img/Group%2074.png" alt="">
     </div>
 </section>
 
-<section class="game-location">
+<section class="game-location" data-aos="fade-up"
+         data-aos-duration="3000">>
     <div class="card__description-top-line rates game-location-item">
         <div class="line"></div>
         <p>Игровые сервера на карте</p>
@@ -185,14 +200,25 @@
         <img src="icon/Group%2076.svg" alt="">
     </div>
     <div class="footer__right-block">
-        <h7>Политика конфиденциальности</h7>
-        <h7>Файлы Coocie</h7>
+        <a href="">
+            <h7>Политика конфиденциальности</h7>
+        </a>
+        <a href="">
+            <h7>Файлы Coocie</h7>
+        </a>
         <div class="footer__social">
-            <img src="icon/VK%20com.svg" alt="">
-            <img src="icon/Discord.svg" alt="">
-            <img src="icon/YouTube%20(1).svg" alt="">
+            <a href=""><img src="icon/VK%20com.svg" alt=""></a>
+            <a href=""><img src="icon/Discord.svg" alt=""></a>
+            <a href=""><img src="icon/YouTube%20(1).svg" alt=""></a>
         </div>
     </div>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--<script src="script/jquery.scrollme.min.js"></script>-->
+<!--<script src="script/jquery.scrollme.js"></script>-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

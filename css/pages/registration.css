@@ -15,10 +15,10 @@ body {
     background-image: url("../../registration/img/Rectangle 219.png");
     display: none;
     transform: translateX(-250%);
-    animation: vk-anim 1s forwards;
+    animation: authorization__vk 1s forwards;
 }
 
-@keyframes vk-anim {
+@keyframes authorization__vk {
     0% {
         transform: translateX(-250%);
         margin-bottom: 4px
@@ -119,6 +119,10 @@ h2 {
     max-width: 400px;
     width: 100%;
     min-height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
 
 .registration-button p {
@@ -131,19 +135,19 @@ h2 {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    width: 100%;
+    width: 85%;
     min-height: 90px;
     background: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
     transition: 0.5s;
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 32%, 90% 0);
     font-size: 22px;
 }
 
-.registration-button a:hover {
+.registration-button a:hover
+{
     transform: scale(1.2);
     transition: 0.5s;
     box-shadow: inset 0px 0px 70px -5px rgb(16 40 72);
@@ -189,16 +193,14 @@ h2 {
 .registration-middle {
     display: flex;
     justify-content: center;
-    max-width: 640px;
+    max-width: 762px;
     width: 100%;
     min-height: 94px;
     margin-top: 60px;
 }
 
 .registration-agreement {
-
     width: 100%;
-
 }
 
 .registration-agreement h7 {
@@ -219,6 +221,27 @@ h2 {
     width: 40px;
     height: 40px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-aunt {
+    width: 204px;
+    display: none;
+}
+
+.check-label p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-left: 15px;
+    margin-right: 40px;
+    margin: 0;
 }
 
 .check__input {
@@ -301,4 +324,5 @@ h2 {
 .social:hover {
     transition: 0.2s;
     transform: scale(2);
+
 }

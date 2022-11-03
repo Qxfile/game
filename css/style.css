@@ -28,12 +28,27 @@ header {
 }
 
 .main-menu {
-    margin-left: 100px;
-    margin-right: 170px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.main-menu a
+{
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.main-menu a:hover
+{
+    transition: opacity 0.5s;
+    opacity: 0.5;
+}
+.main-menu a:active
+{
+    transition: opacity 0.2s;
+    opacity: 0.1;
 }
 
 .main-menu h6 {
@@ -68,6 +83,18 @@ header {
     position: relative;
 }
 
+.start-screen-first {
+    background: radial-gradient(49.95% 96.01% at 50.05% 49.91%, rgba(82, 125, 139, 0) 0%, rgba(82, 125, 139, 0.25) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/Rectangle 94.png');
+}
+
+.start-screen-two {
+    background: radial-gradient(49.95% 96.01% at 50.05% 49.91%, rgba(82, 125, 139, 0) 0%, rgba(82, 125, 139, 0.25) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/Rectangle 133.png');
+}
+
+.start-screen-three {
+    background: radial-gradient(49.95% 96.01% at 50.05% 49.91%, rgba(82, 125, 139, 0) 0%, rgba(82, 125, 139, 0.25) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/Rectangle 115.png');
+}
+
 .main__start-screen h3 {
     width: 216px;
     height: 19px;
@@ -94,7 +121,6 @@ header {
 }
 
 .main__start-screen a {
-    /*clip-path: polygon(0 0, 100% 0, 110% 25px, calc(100% - 25px) 100%, 0 100%);*/
     text-decoration: none;
     color: black;
     text-transform: uppercase;
@@ -106,14 +132,17 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-
-    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 32%, 90% 0)
+    transition: 0.5s;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 32%, 90% 0);
+    font-size: 22px;
 }
-
-.main__start-screen {
-
+.main__start-screen a:hover
+{
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: inset 0px 0px 70px -5px rgb(16 40 72);
+    font-size: 25px;
 }
-
 .container {
     margin-left: 20px;
     margin-right: 20px;
@@ -497,7 +526,6 @@ header {
     border-radius: 5px;
     padding: 75px 40px 50px 40px;
     box-sizing: border-box;
-
 }
 
 .main__rates-card:nth-child(2) {
@@ -580,7 +608,36 @@ header {
     color: #000000;
     text-decoration: none;
 }
-
+.side-button-card
+{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.side-button-card:hover
+{
+    opacity:0.3;
+    transition: opacity 0.5s;
+}
+.side-button-card:active
+{
+    opacity:0.1;
+    transition: opacity 0.5s;
+}
+.middle-button-card
+{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.middle-button-card:hover
+{
+    opacity:0.8;
+    transition: opacity 0.5s;
+}
+.middle-button-card:active
+{
+    opacity:0.5;
+    transition: opacity 0.5s;
+}
 .card-center h5 {
     color: #000000;
 }
@@ -731,7 +788,6 @@ footer {
     max-width: 800px;
     width: 100%;
     gap: 30px;
-
 }
 
 .footer__right-block {
@@ -741,7 +797,11 @@ footer {
     width: 100%;
     gap: 50px;
 }
-
+.footer__social
+{
+    display: flex;
+    gap: 10px;
+}
 .footer__right-block h7 {
     width: 177px;
     height: 14px;
@@ -757,6 +817,51 @@ footer {
     width: 78px;
 }
 
+.footer__left-block img
+{
+    transition: opacity 0.5s;
+
+}
+.footer__left-block img:hover
+{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.footer-text
+{
+    transition: opacity 0.5s;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+.footer-text:hover
+{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.footer__right-block a
+{
+    text-decoration: none;
+}
+.footer__right-block h7
+{
+    transition: opacity 0.5s;
+}
+.footer__right-block h7:hover
+{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.footer__social img
+{
+    transition: 0.5s;
+}
+.footer__social img:hover
+{
+    transition: 0.5s;
+    transform:scale(1.7);
+}
 @media (max-width: 1247px) {
 
     .card-list-bottom-line {

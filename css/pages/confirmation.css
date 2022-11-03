@@ -1,0 +1,20 @@
+@import "../style.css";
+@import "download.css";
+
+main h1
+{
+    max-width: 872px;
+}
+main h6
+{
+    width: 836px;
+    height: 174px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #ABABAB;
+    margin-top: 65px;
+
+}
